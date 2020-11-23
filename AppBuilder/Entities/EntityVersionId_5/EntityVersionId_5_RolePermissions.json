@@ -145,6 +145,16 @@
       "RoleId": 8,
       "RoleName": "Users",
       "Value": "true"
+    },
+    {
+      "Id": 29,
+      "PermissionType": {
+        "Id": 3,
+        "Name": "Can Edit"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "all"
     }
   ],
   "18": [
@@ -167,6 +177,16 @@
       "RoleId": 18,
       "RoleName": "New Role",
       "Value": "true"
+    },
+    {
+      "Id": 30,
+      "PermissionType": {
+        "Id": 3,
+        "Name": "Can Edit"
+      },
+      "RoleId": 18,
+      "RoleName": "New Role",
+      "Value": "own"
     }
   ]
 }
