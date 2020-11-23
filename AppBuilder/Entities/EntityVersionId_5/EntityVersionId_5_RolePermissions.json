@@ -137,10 +137,10 @@
       "Value": "all"
     },
     {
-      "Id": 43,
+      "Id": 46,
       "PermissionType": {
-        "Id": 3,
-        "Name": "Can Edit"
+        "Id": 4,
+        "Name": "Can Delete"
       },
       "RoleId": 8,
       "RoleName": "Users",
@@ -169,10 +169,10 @@
       "Value": "true"
     },
     {
-      "Id": 45,
+      "Id": 47,
       "PermissionType": {
-        "Id": 3,
-        "Name": "Can Edit"
+        "Id": 4,
+        "Name": "Can Delete"
       },
       "RoleId": 18,
       "RoleName": "New Role",
