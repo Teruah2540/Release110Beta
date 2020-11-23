@@ -147,6 +147,16 @@
       "RoleId": 18,
       "RoleName": "New Role",
       "Value": "all"
+    },
+    {
+      "Id": 37,
+      "PermissionType": {
+        "Id": 2,
+        "Name": "Can Add"
+      },
+      "RoleId": 18,
+      "RoleName": "New Role",
+      "Value": "true"
     }
   ]
 }
