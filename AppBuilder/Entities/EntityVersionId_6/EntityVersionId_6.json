@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": 58,
+  "RecordNamePropertyId": 12,
+  "Id": 6,
+  "VersionId": 6,
+  "Name": "Food Choice",
+  "PluralName": "Food Choices",
+  "Icon": "apple-alt",
+  "Type": "UserCreated"
+}
