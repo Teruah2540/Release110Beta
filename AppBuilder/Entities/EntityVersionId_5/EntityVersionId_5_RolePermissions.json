@@ -149,16 +149,6 @@
       "Value": "all"
     },
     {
-      "Id": 38,
-      "PermissionType": {
-        "Id": 2,
-        "Name": "Can Add"
-      },
-      "RoleId": 18,
-      "RoleName": "New Role",
-      "Value": "true"
-    },
-    {
       "Id": 39,
       "PermissionType": {
         "Id": 3,
