@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.10.00">
+    <contentKey />
     <moduleID>435</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Title Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>bb4a80ac-69f3-48a0-93e7-f0e071b27f0f</uniqueId>
+    <uniqueId>2889a541-8ffe-4cbc-8b00-ea1483fbb62e</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
