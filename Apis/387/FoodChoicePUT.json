@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Food Choice record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 7,
+  "OrderIndex": 31,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "Healthy",
+      "Name": "IsHealthy",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -57,7 +57,7 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Food": "[Food]",
-        "Healthy": "[Healthy]"
+        "IsHealthy": "[IsHealthy]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
