@@ -157,6 +157,16 @@
       "RoleId": 18,
       "RoleName": "New Role",
       "Value": "all"
+    },
+    {
+      "Id": 34,
+      "PermissionType": {
+        "Id": 3,
+        "Name": "Can Edit"
+      },
+      "RoleId": 18,
+      "RoleName": "New Role",
+      "Value": "own"
     }
   ]
 }
