@@ -134,7 +134,7 @@
       },
       "RoleId": 8,
       "RoleName": "Users",
-      "Value": "own"
+      "Value": "all"
     },
     {
       "Id": 27,
@@ -155,6 +155,16 @@
       "RoleId": 8,
       "RoleName": "Users",
       "Value": "all"
+    },
+    {
+      "Id": 31,
+      "PermissionType": {
+        "Id": 4,
+        "Name": "Can Delete"
+      },
+      "RoleId": 8,
+      "RoleName": "Users",
+      "Value": "own"
     }
   ],
   "18": [
@@ -187,6 +197,16 @@
       "RoleId": 18,
       "RoleName": "New Role",
       "Value": "own"
+    },
+    {
+      "Id": 32,
+      "PermissionType": {
+        "Id": 4,
+        "Name": "Can Delete"
+      },
+      "RoleId": 18,
+      "RoleName": "New Role",
+      "Value": "all"
     }
   ]
 }
