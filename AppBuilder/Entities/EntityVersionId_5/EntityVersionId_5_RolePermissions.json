@@ -135,16 +135,6 @@
       "RoleId": 8,
       "RoleName": "Users",
       "Value": "all"
-    },
-    {
-      "Id": 27,
-      "PermissionType": {
-        "Id": 2,
-        "Name": "Can Add"
-      },
-      "RoleId": 8,
-      "RoleName": "Users",
-      "Value": "true"
     }
   ],
   "18": [
