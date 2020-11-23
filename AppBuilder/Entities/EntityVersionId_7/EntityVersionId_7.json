@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": 58,
+  "RecordNamePropertyId": 15,
+  "Id": 7,
+  "VersionId": 7,
+  "Name": "Child",
+  "PluralName": "Children",
+  "Icon": "baby",
+  "Type": "UserCreated"
+}
