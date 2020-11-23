@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "Phone",
+      "Name": "FoodSelection",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Age",
+      "Name": "Phone",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "Birthdate",
+      "Name": "Age",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -51,7 +51,7 @@
       "Validations": []
     },
     {
-      "Name": "Website",
+      "Name": "Birthdate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -60,7 +60,7 @@
       "Validations": []
     },
     {
-      "Name": "FoodSelection",
+      "Name": "Website",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 5,
@@ -76,11 +76,11 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
+        "FoodSelection": "[FoodSelection]",
         "Phone": "[Phone]",
         "Age": "[Age]",
         "Birthdate": "[Birthdate]",
-        "Website": "[Website]",
-        "FoodSelection": "[FoodSelection]"
+        "Website": "[Website]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -118,6 +118,10 @@
             "value": "[CreatedRecord:Name]"
           },
           {
+            "name": "FoodSelection",
+            "value": "[CreatedRecord:FoodSelection]"
+          },
+          {
             "name": "Phone",
             "value": "[CreatedRecord:Phone]"
           },
@@ -132,10 +136,6 @@
           {
             "name": "Website",
             "value": "[CreatedRecord:Website]"
-          },
-          {
-            "name": "FoodSelection",
-            "value": "[CreatedRecord:FoodSelection]"
           }
         ],
         "Headers": [
