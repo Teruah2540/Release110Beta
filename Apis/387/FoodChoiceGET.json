@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Food Choice record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 6,
+  "OrderIndex": 30,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -54,8 +54,8 @@
             "value": "[Record:Food]"
           },
           {
-            "name": "Healthy",
-            "value": "[Record:Healthy]"
+            "name": "IsHealthy",
+            "value": "[Record:IsHealthy]"
           }
         ],
         "Headers": []
