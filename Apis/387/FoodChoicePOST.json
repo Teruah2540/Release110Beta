@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Food Choice",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 5,
+  "OrderIndex": 29,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "Healthy",
+      "Name": "IsHealthy",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -40,7 +40,7 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Food": "[Food]",
-        "Healthy": "[Healthy]"
+        "IsHealthy": "[IsHealthy]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -78,8 +78,8 @@
             "value": "[CreatedRecord:Food]"
           },
           {
-            "name": "Healthy",
-            "value": "[CreatedRecord:Healthy]"
+            "name": "IsHealthy",
+            "value": "[CreatedRecord:IsHealthy]"
           }
         ],
         "Headers": [
