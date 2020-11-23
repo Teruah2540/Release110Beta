@@ -166,7 +166,17 @@
       },
       "RoleId": 18,
       "RoleName": "New Role",
-      "Value": "own"
+      "Value": "all"
+    },
+    {
+      "Id": 35,
+      "PermissionType": {
+        "Id": 4,
+        "Name": "Can Delete"
+      },
+      "RoleId": 18,
+      "RoleName": "New Role",
+      "Value": "all"
     }
   ]
 }
