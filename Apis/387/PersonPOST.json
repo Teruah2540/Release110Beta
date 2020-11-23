@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Person",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 17,
+  "OrderIndex": 25,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "Age",
+      "Name": "Phone",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Phone",
+      "Name": "Age",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "Website",
+      "Name": "Birthdate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -51,7 +51,7 @@
       "Validations": []
     },
     {
-      "Name": "Birthdate",
+      "Name": "Website",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -76,10 +76,10 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
-        "Age": "[Age]",
         "Phone": "[Phone]",
-        "Website": "[Website]",
+        "Age": "[Age]",
         "Birthdate": "[Birthdate]",
+        "Website": "[Website]",
         "FoodSelection": "[FoodSelection]"
       },
       "IsEnabled": true,
@@ -118,20 +118,20 @@
             "value": "[CreatedRecord:Name]"
           },
           {
-            "name": "Age",
-            "value": "[CreatedRecord:Age]"
-          },
-          {
             "name": "Phone",
             "value": "[CreatedRecord:Phone]"
           },
           {
-            "name": "Website",
-            "value": "[CreatedRecord:Website]"
+            "name": "Age",
+            "value": "[CreatedRecord:Age]"
           },
           {
             "name": "Birthdate",
             "value": "[CreatedRecord:Birthdate]"
+          },
+          {
+            "name": "Website",
+            "value": "[CreatedRecord:Website]"
           },
           {
             "name": "FoodSelection",
