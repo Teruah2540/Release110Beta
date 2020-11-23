@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Person record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 19,
+  "OrderIndex": 27,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "Age",
+      "Name": "Phone",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Phone",
+      "Name": "Age",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -59,7 +59,7 @@
       "Validations": []
     },
     {
-      "Name": "Website",
+      "Name": "Birthdate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -68,7 +68,7 @@
       "Validations": []
     },
     {
-      "Name": "Birthdate",
+      "Name": "Website",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 5,
@@ -93,10 +93,10 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "Age": "[Age]",
         "Phone": "[Phone]",
-        "Website": "[Website]",
+        "Age": "[Age]",
         "Birthdate": "[Birthdate]",
+        "Website": "[Website]",
         "FoodSelection": "[FoodSelection]"
       },
       "IsEnabled": true,
