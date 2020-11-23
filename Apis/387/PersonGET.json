@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Person record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 2,
+  "OrderIndex": 10,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -68,6 +68,10 @@
           {
             "name": "Birthdate",
             "value": "[Record:Birthdate]"
+          },
+          {
+            "name": "FoodSelection",
+            "value": "[Record:FoodSelection]"
           }
         ],
         "Headers": []
