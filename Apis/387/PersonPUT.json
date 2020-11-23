@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "FoodSelection",
+      "Name": "Birthdate",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Phone",
+      "Name": "Age",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -59,7 +59,7 @@
       "Validations": []
     },
     {
-      "Name": "Age",
+      "Name": "Phone",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -68,7 +68,7 @@
       "Validations": []
     },
     {
-      "Name": "Birthdate",
+      "Name": "FoodSelection",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 5,
@@ -93,10 +93,10 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "FoodSelection": "[FoodSelection]",
-        "Phone": "[Phone]",
-        "Age": "[Age]",
         "Birthdate": "[Birthdate]",
+        "Age": "[Age]",
+        "Phone": "[Phone]",
+        "FoodSelection": "[FoodSelection]",
         "Website": "[Website]"
       },
       "IsEnabled": true,
