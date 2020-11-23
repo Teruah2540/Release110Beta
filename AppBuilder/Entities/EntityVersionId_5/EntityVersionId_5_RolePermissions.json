@@ -157,36 +157,6 @@
       "RoleId": 18,
       "RoleName": "New Role",
       "Value": "all"
-    },
-    {
-      "Id": 34,
-      "PermissionType": {
-        "Id": 3,
-        "Name": "Can Edit"
-      },
-      "RoleId": 18,
-      "RoleName": "New Role",
-      "Value": "all"
-    },
-    {
-      "Id": 35,
-      "PermissionType": {
-        "Id": 4,
-        "Name": "Can Delete"
-      },
-      "RoleId": 18,
-      "RoleName": "New Role",
-      "Value": "all"
-    },
-    {
-      "Id": 36,
-      "PermissionType": {
-        "Id": 2,
-        "Name": "Can Add"
-      },
-      "RoleId": 18,
-      "RoleName": "New Role",
-      "Value": "true"
     }
   ]
 }
