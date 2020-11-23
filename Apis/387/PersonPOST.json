@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Person",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 1,
+  "OrderIndex": 9,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -58,6 +58,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "FoodSelection",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -70,7 +79,8 @@
         "Age": "[Age]",
         "Phone": "[Phone]",
         "Website": "[Website]",
-        "Birthdate": "[Birthdate]"
+        "Birthdate": "[Birthdate]",
+        "FoodSelection": "[FoodSelection]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -122,6 +132,10 @@
           {
             "name": "Birthdate",
             "value": "[CreatedRecord:Birthdate]"
+          },
+          {
+            "name": "FoodSelection",
+            "value": "[CreatedRecord:FoodSelection]"
           }
         ],
         "Headers": [
