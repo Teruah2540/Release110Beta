@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Person record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 10,
+  "OrderIndex": 18,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
