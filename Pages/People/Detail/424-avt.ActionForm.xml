@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -49,7 +48,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eAge :\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Age=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container phone\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ephone\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ePhone:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e\r\n            \u003ca href=\&quot;tel:[original:Phone=\u0027-\u0027]\&quot;\u003e[original:Phone=\u0027-\u0027]\u003c/a\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container url\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elaptop\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eWebsite:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Website=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container date\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eBirthdate:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Birthdate=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-smile\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eFood Selection:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalFoodChoice:Food=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container phone\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ephone\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ePhone:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e\r\n            \u003ca href=\&quot;tel:[original:Phone=\u0027-\u0027]\&quot;\u003e[original:Phone=\u0027-\u0027]\u003c/a\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eAge :\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Age=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container date\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eBirthdate:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Birthdate=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container url\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elaptop\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eWebsite:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Website=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-smile\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eFood Selection:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalFoodChoice:Food=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
     &lt;div class=&quot;properties-container text&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -57,13 +56,6 @@
             &lt;span class=&quot;entity-property-name&quot;&gt;Name:&lt;/span&gt;
         &lt;/div&gt;
         &lt;div class=&quot;entity-value&quot;&gt;[original:Name=&#39;-&#39;]&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;properties-container decimal&quot;&gt;
-        &lt;div class=&quot;entity-property&quot;&gt;
-            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
-            &lt;span class=&quot;entity-property-name&quot;&gt;Age :&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[original:Age=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;properties-container phone&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -74,12 +66,12 @@
             &lt;a href=&quot;tel:[original:Phone=&#39;-&#39;]&quot;&gt;[original:Phone=&#39;-&#39;]&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;properties-container url&quot;&gt;
+    &lt;div class=&quot;properties-container decimal&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
-            &lt;span class=&quot;material-icons&quot;&gt;laptop&lt;/span&gt;
-            &lt;span class=&quot;entity-property-name&quot;&gt;Website:&lt;/span&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Age :&lt;/span&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[original:Website=&#39;-&#39;]&lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Age=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;properties-container date&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -87,6 +79,13 @@
             &lt;span class=&quot;entity-property-name&quot;&gt;Birthdate:&lt;/span&gt;
         &lt;/div&gt;
         &lt;div class=&quot;entity-value&quot;&gt;[original:Birthdate=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container url&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;laptop&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Website:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Website=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;properties-container entityref&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -172,7 +171,7 @@
     &lt;LeftSidebarHtml /&gt;
     &lt;RightSidebarHtml /&gt;
     &lt;RootClasses /&gt;
-    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
@@ -181,7 +180,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7] &amp;amp;&amp;amp; ![HasRole:8] &amp;amp;&amp;amp; ![HasRole:18]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-11-23T19:14:54.337&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-23T20:34:31.543&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;424&lt;/ModuleId&gt;
@@ -196,7 +195,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-23T19:14:54.337&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-23T20:34:31.543&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:Name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Age&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Phone&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Website&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Birthdate&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:FoodSelection&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;424&lt;/ModuleId&gt;
@@ -210,7 +209,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Person&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-23T19:14:54.337&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-23T20:34:31.56&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:PersonId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;424&lt;/ModuleId&gt;
@@ -225,7 +224,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.FoodChoice&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-23T19:14:54.337&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-23T20:34:31.56&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:FoodSelection]&quot;,&quot;OutputToken&quot;:&quot;originalFoodChoice&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;424&lt;/ModuleId&gt;
