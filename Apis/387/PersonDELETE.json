@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Person record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 12,
+  "OrderIndex": 20,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
