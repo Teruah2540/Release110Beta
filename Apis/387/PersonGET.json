@@ -54,20 +54,20 @@
             "value": "[Record:Name]"
           },
           {
-            "name": "FoodSelection",
-            "value": "[Record:FoodSelection]"
-          },
-          {
-            "name": "Phone",
-            "value": "[Record:Phone]"
+            "name": "Birthdate",
+            "value": "[Record:Birthdate]"
           },
           {
             "name": "Age",
             "value": "[Record:Age]"
           },
           {
-            "name": "Birthdate",
-            "value": "[Record:Birthdate]"
+            "name": "Phone",
+            "value": "[Record:Phone]"
+          },
+          {
+            "name": "FoodSelection",
+            "value": "[Record:FoodSelection]"
           },
           {
             "name": "Website",
