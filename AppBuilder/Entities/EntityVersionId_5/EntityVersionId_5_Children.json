@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "Id": 1,
+    "EntityVersionId": 7,
+    "RelationName": "Children",
+    "OrderIndex": 7
+  }
+]
