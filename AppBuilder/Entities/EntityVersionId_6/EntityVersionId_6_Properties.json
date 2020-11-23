@@ -24,7 +24,7 @@
   {
     "Id": 13,
     "EntityVersionId": 6,
-    "Name": "Healthy?",
+    "Name": "IsHealthy",
     "Type": {
       "Id": "Boolean",
       "Name": "Boolean",
