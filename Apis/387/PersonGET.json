@@ -54,6 +54,10 @@
             "value": "[Record:Name]"
           },
           {
+            "name": "FoodSelection",
+            "value": "[Record:FoodSelection]"
+          },
+          {
             "name": "Phone",
             "value": "[Record:Phone]"
           },
@@ -68,10 +72,6 @@
           {
             "name": "Website",
             "value": "[Record:Website]"
-          },
-          {
-            "name": "FoodSelection",
-            "value": "[Record:FoodSelection]"
           }
         ],
         "Headers": []
