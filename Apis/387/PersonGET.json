@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Person record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 18,
+  "OrderIndex": 26,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -54,20 +54,20 @@
             "value": "[Record:Name]"
           },
           {
-            "name": "Age",
-            "value": "[Record:Age]"
-          },
-          {
             "name": "Phone",
             "value": "[Record:Phone]"
           },
           {
-            "name": "Website",
-            "value": "[Record:Website]"
+            "name": "Age",
+            "value": "[Record:Age]"
           },
           {
             "name": "Birthdate",
             "value": "[Record:Birthdate]"
+          },
+          {
+            "name": "Website",
+            "value": "[Record:Website]"
           },
           {
             "name": "FoodSelection",
