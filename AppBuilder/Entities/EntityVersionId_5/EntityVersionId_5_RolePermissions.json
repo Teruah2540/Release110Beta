@@ -149,24 +149,14 @@
       "Value": "all"
     },
     {
-      "Id": 39,
+      "Id": 42,
       "PermissionType": {
-        "Id": 3,
-        "Name": "Can Edit"
+        "Id": 2,
+        "Name": "Can Add"
       },
       "RoleId": 18,
       "RoleName": "New Role",
-      "Value": "all"
-    },
-    {
-      "Id": 40,
-      "PermissionType": {
-        "Id": 4,
-        "Name": "Can Delete"
-      },
-      "RoleId": 18,
-      "RoleName": "New Role",
-      "Value": "all"
+      "Value": "true"
     }
   ]
 }
